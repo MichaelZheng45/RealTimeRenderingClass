@@ -1,2 +1,35 @@
 Base path: 'C:/Program Files/Unity/Hub/Editor/2019.2.8f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2019.2.8f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
+Cmd: preprocessCompute
+  insize=421 outsize=420 ok=1
+Cmd: preprocessCompute
+  insize=9963 outsize=9962 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 4 at kernel.compute(10): 'floor': no matching 1 parameter intrinsic function; Possible intrinsic functions are: floor(float|half|min10float|min16float)
+  error: 2 plat 4 at kernel.compute(10): undeclared identifier 'NOISE_SIMPLEX_1_DIV_289'
+  api=4 insize=9962 outsize=0 ok=0
+Cmd: preprocessCompute
+  insize=10036 outsize=10035 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 4 at kernel.compute(390): incorrect number of arguments to numeric-type constructor
+  api=4 insize=10035 outsize=0 ok=0
+Cmd: preprocessCompute
+  insize=10074 outsize=10073 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 4 at kernel.compute(390): incorrect number of arguments to numeric-type constructor
+  api=4 insize=10073 outsize=0 ok=0
+Cmd: preprocessCompute
+  insize=10074 outsize=10073 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=10073 outsize=3569 ok=1
+Cmd: preprocessCompute
+  insize=10078 outsize=10077 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 4 at kernel.compute(16): undeclared identifier 'snoise'
+  api=4 insize=10077 outsize=0 ok=0
+Cmd: preprocessCompute
+  insize=10078 outsize=10077 ok=1
+Cmd: preprocessCompute
+  insize=447 outsize=446 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=446 outsize=3569 ok=1
